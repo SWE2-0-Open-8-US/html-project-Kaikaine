@@ -1,0 +1,114 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  padding: 0 10%;
+  background-image: url("img/background.png");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-color: rgb(228, 237, 241);
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style-type: none;
+  align-items: center;
+}
+
+header li {
+  font-size: large;
+  padding: 0.15rem;
+  border-bottom: 1px solid black;
+}
+
+main {
+  background-color: rgb(228, 237, 241);
+}
+
+p {
+  text-align: center;
+}
+
+.games,
+.artists {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3rem;
+  box-shadow: 10px 10px;
+  border: 1px solid black;
+  margin-bottom: 5rem;
+}
+
+.games a,
+.artists a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.games img,
+.artists img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* ------------BIO */
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio p {
+  font-size: 24px;
+}
+
+.bio img {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 3rem;
+}
+
+/* ------------EXPERIENCE */
+
+.experience {
+  margin-bottom: 5rem;
+}
+
+.places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.places img {
+  width: 600px;
+  height: 600px;
+}
+
+/*  */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  height: 5.5rem;
+  background-color: rgb(228, 237, 241);
+  text-align: center;
+}
